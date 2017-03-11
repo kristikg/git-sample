@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya:700);
+
+/* color scheme ---
+	green #96CEB4
+	cream #FFEEAD
+	orange #FF6F69
+	yellow #FFCC5C
+	green2 #AAD8B0
+	*/
+
+body {
+	font-family: Verdana, Arial, sans-serif;
+}
+header {
+	text-align: center;
+}
+h1, h2, h3 {
+	font-family: 'Alegreya', serif;
+	color: #FF6F69;
+}
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+}
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+nav {
+	padding: 0px 100px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 3px 0px 6px 0px;
+	border-top: 1px solid #FF6F69;
+	border-bottom: 1px solid #FF6F69;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	text-decoration: none;
+	padding: .5em 2em;
+	color: #FF6F69;
+	font-size: .7em;
+}
+nav a:hover {
+	font-weight: bold;
+}
+p {
+	font-size: .8em;
+}
+blockquote {
+	font-family: 'Alegreya', serif;
+	color: #FF6F69;
+	font-size: .8em;
+	text-align: center;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 80%;
+	min-width: 850px;
+	background-color: #FFEEAD;
+	color: #333;
+}
+#sidebar {
+	float: right;
+	width: 25%;
+	margin-top: 20px;
+	border-left: 1px solid #FF6F69;
+	padding: 0 10px;
+	text-align: center;
+}
+#sidebar ul {
+	list-style-type: none;
+	font-size: .7em;
+	background-color: blue;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-left: 0;
+}
+#sidebar li {
+	line-height: 1.5em;
+	background-color: white;
+}
+#sidebar a {
+	text-decoration: none;
+}
+#sidebar a:visited {
+	color: #000;
+}
+#sidebar a:hover {
+	font-weight: bold;
+}
+#sidebar img {
+	margin-top: 10px;
+}
+#content {
+	padding: 15px;
+	overflow: auto;
+
+}
+footer {
+	background-color: blue;
+	color: #000;
+	text-align: center;
+	padding: 10px;
+	font-size: .5em;
+	clear: both;
+	border-top: 1px solid #000;
+}
